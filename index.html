@@ -8,354 +8,373 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-wrapper">
-                <div class="logo">
-                    <a href="index.html">Cuong Huynh</a>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#research">Research</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <div class="logo-section">
+                <h1 class="logo">CH</h1>
+                <p class="name">Cuong Huynh</p>
+                <p class="title">CS Student & AI Researcher</p>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="#home" class="nav-link active" data-section="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="nav-link" data-section="about">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a>
+                <a href="#research" class="nav-link" data-section="research">
+                    <i class="fas fa-flask"></i>
+                    <span>Research</span>
+                </a>
+                <a href="#projects" class="nav-link" data-section="projects">
+                    <i class="fas fa-code"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#skills" class="nav-link" data-section="skills">
+                    <i class="fas fa-star"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#contact" class="nav-link" data-section="contact">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </nav>
+
+            <div class="social-section">
+                <a href="https://linkedin.com/in/cuong-huynh" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Rickie2k6" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:cuonghn.saigon@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
             </div>
         </div>
-    </nav>
+    </aside>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Cuong Huynh</h1>
-                <p class="hero-subtitle">Computer Science Student | AI/ML Researcher | Full Stack Developer</p>
-                <p class="hero-description">
-                    Passionate about building intelligent systems and responsive web applications. 
-                    Currently researching LLM-based optimization and web design generation at the University of Oklahoma.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                    <a href="#projects" class="btn btn-secondary">View My Work</a>
-                </div>
-                <div class="social-links">
-                    <a href="https://linkedin.com/in/cuong-huynh" target="_blank" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/Rickie2k6" target="_blank" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="mailto:cuonghn.saigon@gmail.com" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="tel:+14054174729" aria-label="Phone">
-                        <i class="fas fa-phone"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I'm a Computer Science student at the University of Oklahoma with a perfect 4.0 GPA, 
-                        expected to graduate in May 2028. I have a strong foundation in AI/ML research, 
-                        web development, and natural language processing.
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="page-section active">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1 class="hero-title">Welcome</h1>
+                    <p class="hero-subtitle">Computer Science Student | AI/ML Researcher | Full Stack Developer</p>
+                    <p class="hero-description">
+                        Passionate about building intelligent systems and responsive web applications. 
+                        Currently researching LLM-based optimization and web design generation at the University of Oklahoma.
                     </p>
-                    <p>
-                        My research focuses on leveraging large language models to automate and optimize 
-                        web design generation, text simplification, and low-level sentence generation. 
-                        I'm passionate about applying cutting-edge AI techniques to solve real-world problems.
-                    </p>
-                    <h3>Education</h3>
-                    <ul class="education-list">
-                        <li>
-                            <strong>Bachelor of Science in Computer Science</strong><br>
-                            University of Oklahoma, Norman, OK<br>
-                            Minor: Mathematics | GPA: 4.00/4.00 | Expected: May 2028
-                        </li>
-                    </ul>
-                    <h3>Honors & Awards</h3>
-                    <ul class="awards-list">
-                        <li>Excellent Outstanding NRTW Award (2024-2028)</li>
-                        <li>International Undergraduate NRTW Award (2024-2028)</li>
-                        <li>Freshman Welcome Home Residential Scholarship (2024-2025)</li>
-                        <li>Wesley R. Mote Endowed Engineering Scholarship</li>
-                    </ul>
-                </div>
-                <div class="about-stats">
-                    <div class="stat">
-                        <h4>4.0</h4>
-                        <p>GPA</p>
-                    </div>
-                    <div class="stat">
-                        <h4>3+</h4>
-                        <p>Research Projects</p>
-                    </div>
-                    <div class="stat">
-                        <h4>5+</h4>
-                        <p>Programming Languages</p>
-                    </div>
-                    <div class="stat">
-                        <h4>2026</h4>
-                        <p>Years Experience</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-secondary">View My Work</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Research Section -->
-    <section id="research" class="research">
-        <div class="container">
-            <h2 class="section-title">Research Experience</h2>
-            <div class="research-grid">
-                <div class="research-card">
-                    <div class="research-header">
-                        <h3>LLM-Based Evolutionary Text Generation</h3>
-                        <span class="date">Jan 2026 – Present</span>
-                    </div>
-                    <p class="research-location">Devon Energy Hall, University of Oklahoma</p>
-                    <ul class="research-highlights">
-                        <li>Extended the OpenEvolve framework to optimize low-level sentence generation using evolutionary algorithms</li>
-                        <li>Designed compositional strategies enabling single or multi-method hybrid generation pipelines</li>
-                        <li>Achieved target linguistic complexity levels through LLM-based research</li>
-                        <li>Implemented in Python and deployed on Wukong server for large-scale experimentation</li>
-                    </ul>
+        <!-- About Section -->
+        <section id="about" class="page-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="accent-line"></div>
                 </div>
-
-                <div class="research-card">
-                    <div class="research-header">
-                        <h3>Responsive Web Design Generation</h3>
-                        <span class="date">Jan 2026 – Present</span>
+                
+                <div class="about-grid">
+                    <div class="about-main">
+                        <p class="about-highlight">
+                            I'm a Computer Science student at the University of Oklahoma with a perfect 4.0 GPA, 
+                            expected to graduate in May 2028. I have a strong foundation in AI/ML research, 
+                            web development, and natural language processing.
+                        </p>
+                        <p>
+                            My research focuses on leveraging large language models to automate and optimize 
+                            web design generation, text simplification, and low-level sentence generation. 
+                            I'm passionate about applying cutting-edge AI techniques to solve real-world problems.
+                        </p>
                     </div>
-                    <p class="research-location">Devon Energy Hall, University of Oklahoma</p>
-                    <ul class="research-highlights">
-                        <li>Leveraged large language models to automate responsive web design generation</li>
-                        <li>Developed a pipeline generating fully responsive webpages from wireframe inputs (mobile, tablet, desktop)</li>
-                        <li>Integrated multiple external LLMs for diverse output generation</li>
-                        <li>Enhanced user experience through intelligent design adaptation</li>
-                    </ul>
-                </div>
 
-                <div class="research-card">
-                    <div class="research-header">
-                        <h3>Text Simplification & Linguistic Complexity</h3>
-                        <span class="date">June 2025 – Nov 2025</span>
+                    <div class="about-section-group">
+                        <h3 class="about-heading">Education</h3>
+                        <div class="education-item">
+                            <h4>Bachelor of Science in Computer Science</h4>
+                            <p class="meta">University of Oklahoma, Norman, OK</p>
+                            <p class="meta">Minor: Mathematics | GPA: 4.00/4.00 | Expected: May 2028</p>
+                        </div>
                     </div>
-                    <p class="research-location">Devon Energy Hall, University of Oklahoma</p>
-                    <ul class="research-highlights">
-                        <li>Implemented a sentence transformation pipeline for text simplification to target proficiency levels</li>
-                        <li>Integrated multiple LLMs to generate and diversify candidate rewrites</li>
-                        <li>Designed candidate selection and evaluation logic based on linguistic and complexity constraints</li>
-                        <li>Deployed on Wukong server for large-scale experimentation</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>BorrowIt - Peer-to-Peer Marketplace</h3>
-                        <span class="project-date">Feb 2026</span>
-                    </div>
-                    <p class="project-event">Hacklahoma 2026</p>
-                    <p class="project-description">
-                        A student-centric peer-to-peer marketplace designed for lending and borrowing items within a university campus environment.
-                    </p>
-                    <ul class="project-highlights">
-                        <li>Built with Next.js (App Router) and React for modern UI</li>
-                        <li>Three.js integration for 3D visuals</li>
-                        <li>Firebase authentication and Firestore database</li>
-                        <li>MongoDB backend integration</li>
-                        <li>User authentication and item listing management</li>
-                        <li>Dedicated trade history system for tracking transactions</li>
-                    </ul>
-                    <div class="project-tech">
-                        <span class="tech-tag">Next.js</span>
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">Three.js</span>
-                        <span class="tech-tag">Firebase</span>
-                        <span class="tech-tag">MongoDB</span>
+                    <div class="about-section-group">
+                        <h3 class="about-heading">Honors & Awards</h3>
+                        <ul class="awards-list">
+                            <li>Excellent Outstanding NRTW Award (2024-2028)</li>
+                            <li>International Undergraduate NRTW Award (2024-2028)</li>
+                            <li>Freshman Welcome Home Residential Scholarship (2024-2025)</li>
+                            <li>Wesley R. Mote Endowed Engineering Scholarship</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>A Map Animation Program</h3>
-                        <span class="project-date">2025</span>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-number">4.0</div>
+                        <div class="stat-label">GPA</div>
                     </div>
-                    <p class="project-event">University of Oklahoma Coursework</p>
-                    <p class="project-description">
-                        An interactive map animation application demonstrating advanced GUI programming and visualization techniques.
-                    </p>
-                    <ul class="project-highlights">
-                        <li>Developed using Java Swing framework</li>
-                        <li>Real-time map visualization and animations</li>
-                        <li>Interactive user controls and animations</li>
-                        <li>Demonstrates proficiency in GUI development</li>
-                    </ul>
-                    <div class="project-tech">
-                        <span class="tech-tag">Java</span>
-                        <span class="tech-tag">Swing</span>
-                        <span class="tech-tag">GUI</span>
+                    <div class="stat-box">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Research Projects</div>
                     </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>OUNLP at TSAR 2025</h3>
-                        <span class="project-date">2025</span>
+                    <div class="stat-box">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Languages</div>
                     </div>
-                    <p class="project-event">Research Paper</p>
-                    <p class="project-description">
-                        Multi-Round Text Simplifier via Code Generation - A collaborative research project in natural language processing.
-                    </p>
-                    <ul class="project-highlights">
-                        <li>Participated in TSAR 2025 Shared Task</li>
-                        <li>Implemented advanced text simplification algorithms</li>
-                        <li>Code generation-based approach for linguistic transformation</li>
-                        <li>Published research findings</li>
-                    </ul>
-                    <div class="project-tech">
-                        <span class="tech-tag">NLP</span>
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Research</span>
+                    <div class="stat-box">
+                        <div class="stat-number">2026</div>
+                        <div class="stat-label">Founded</div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Skills & Technologies</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">C++</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">HTML</span>
-                        <span class="skill-tag">CSS</span>
-                        <span class="skill-tag">JavaScript</span>
-                    </div>
+        <!-- Research Section -->
+        <section id="research" class="page-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Research Experience</h2>
+                    <div class="accent-line"></div>
                 </div>
-
-                <div class="skill-category">
-                    <h3>Frameworks & Libraries</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Next.js</span>
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">Three.js</span>
-                        <span class="skill-tag">Java Swing</span>
-                        <span class="skill-tag">Firebase</span>
+                
+                <div class="research-timeline">
+                    <div class="research-item">
+                        <div class="research-marker"></div>
+                        <div class="research-content">
+                            <h3>LLM-Based Evolutionary Text Generation</h3>
+                            <p class="research-date">Jan 2026 – Present</p>
+                            <p class="research-location">Devon Energy Hall, University of Oklahoma</p>
+                            <ul class="highlights">
+                                <li>Extended the OpenEvolve framework to optimize low-level sentence generation using evolutionary algorithms</li>
+                                <li>Designed compositional strategies enabling single or multi-method hybrid generation pipelines</li>
+                                <li>Achieved target linguistic complexity levels through LLM-based research</li>
+                                <li>Implemented in Python and deployed on Wukong server for large-scale experimentation</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <div class="skill-category">
-                    <h3>Tools & Platforms</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">VS Code</span>
-                        <span class="skill-tag">Eclipse</span>
-                        <span class="skill-tag">MongoDB</span>
-                        <span class="skill-tag">Firestore</span>
+                    <div class="research-item">
+                        <div class="research-marker"></div>
+                        <div class="research-content">
+                            <h3>Responsive Web Design Generation</h3>
+                            <p class="research-date">Jan 2026 – Present</p>
+                            <p class="research-location">Devon Energy Hall, University of Oklahoma</p>
+                            <ul class="highlights">
+                                <li>Leveraged large language models to automate responsive web design generation</li>
+                                <li>Developed a pipeline generating fully responsive webpages from wireframe inputs (mobile, tablet, desktop)</li>
+                                <li>Integrated multiple external LLMs for diverse output generation</li>
+                                <li>Enhanced user experience through intelligent design adaptation</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <div class="skill-category">
-                    <h3>Domains</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">AI/ML</span>
-                        <span class="skill-tag">LLMs</span>
-                        <span class="skill-tag">NLP</span>
-                        <span class="skill-tag">Web Development</span>
-                        <span class="skill-tag">GUI Development</span>
+                    <div class="research-item">
+                        <div class="research-marker"></div>
+                        <div class="research-content">
+                            <h3>Text Simplification & Linguistic Complexity</h3>
+                            <p class="research-date">June 2025 – Nov 2025</p>
+                            <p class="research-location">Devon Energy Hall, University of Oklahoma</p>
+                            <ul class="highlights">
+                                <li>Implemented a sentence transformation pipeline for text simplification to target proficiency levels</li>
+                                <li>Integrated multiple LLMs to generate and diversify candidate rewrites</li>
+                                <li>Designed candidate selection and evaluation logic based on linguistic and complexity constraints</li>
+                                <li>Deployed on Wukong server for large-scale experimentation</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="section-subtitle">Let's connect! Feel free to reach out for collaboration or inquiries.</p>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
+        <!-- Projects Section -->
+        <section id="projects" class="page-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="accent-line"></div>
+                </div>
+                
+                <div class="projects-container">
+                    <div class="project-card">
+                        <div class="project-badge">Featured</div>
+                        <h3 class="project-title">BorrowIt - Peer-to-Peer Marketplace</h3>
+                        <p class="project-meta">Hacklahoma 2026</p>
+                        <p class="project-description">
+                            A student-centric peer-to-peer marketplace designed for lending and borrowing items within a university campus environment.
+                        </p>
+                        <ul class="project-points">
+                            <li>Built with Next.js (App Router) and React for modern UI</li>
+                            <li>Three.js integration for 3D visuals</li>
+                            <li>Firebase authentication and Firestore database</li>
+                            <li>MongoDB backend integration</li>
+                            <li>User authentication and item listing management</li>
+                            <li>Dedicated trade history system for tracking transactions</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech">Next.js</span>
+                            <span class="tech">React</span>
+                            <span class="tech">Three.js</span>
+                            <span class="tech">Firebase</span>
+                            <span class="tech">MongoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3 class="project-title">A Map Animation Program</h3>
+                        <p class="project-meta">University of Oklahoma Coursework</p>
+                        <p class="project-description">
+                            An interactive map animation application demonstrating advanced GUI programming and visualization techniques.
+                        </p>
+                        <ul class="project-points">
+                            <li>Developed using Java Swing framework</li>
+                            <li>Real-time map visualization and animations</li>
+                            <li>Interactive user controls and animations</li>
+                            <li>Demonstrates proficiency in GUI development</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech">Java</span>
+                            <span class="tech">Swing</span>
+                            <span class="tech">GUI</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3 class="project-title">OUNLP at TSAR 2025</h3>
+                        <p class="project-meta">Research Paper</p>
+                        <p class="project-description">
+                            Multi-Round Text Simplifier via Code Generation - A collaborative research project in natural language processing.
+                        </p>
+                        <ul class="project-points">
+                            <li>Participated in TSAR 2025 Shared Task</li>
+                            <li>Implemented advanced text simplification algorithms</li>
+                            <li>Code generation-based approach for linguistic transformation</li>
+                            <li>Published research findings</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech">NLP</span>
+                            <span class="tech">Python</span>
+                            <span class="tech">Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="page-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <div class="accent-line"></div>
+                </div>
+                
+                <div class="skills-matrix">
+                    <div class="skill-group">
+                        <h3 class="skill-category-title">Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">Python</div>
+                            <div class="skill-item">C++</div>
+                            <div class="skill-item">Java</div>
+                            <div class="skill-item">HTML</div>
+                            <div class="skill-item">CSS</div>
+                            <div class="skill-item">JavaScript</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3 class="skill-category-title">Frameworks & Libraries</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">Next.js</div>
+                            <div class="skill-item">React</div>
+                            <div class="skill-item">Three.js</div>
+                            <div class="skill-item">Java Swing</div>
+                            <div class="skill-item">Firebase</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3 class="skill-category-title">Tools & Platforms</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">Git</div>
+                            <div class="skill-item">VS Code</div>
+                            <div class="skill-item">Eclipse</div>
+                            <div class="skill-item">MongoDB</div>
+                            <div class="skill-item">Firestore</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3 class="skill-category-title">Domains</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">AI/ML</div>
+                            <div class="skill-item">LLMs</div>
+                            <div class="skill-item">NLP</div>
+                            <div class="skill-item">Web Development</div>
+                            <div class="skill-item">GUI Development</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="page-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="accent-line"></div>
+                </div>
+                
+                <div class="contact-wrapper">
+                    <div class="contact-info-grid">
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
                             <h4>Email</h4>
                             <a href="mailto:cuonghn.saigon@gmail.com">cuonghn.saigon@gmail.com</a>
                         </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
+                        <div class="contact-card">
+                            <i class="fas fa-phone"></i>
                             <h4>Phone</h4>
                             <a href="tel:+14054174729">+1 (405) 417-4729</a>
                         </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
+                        <div class="contact-card">
+                            <i class="fas fa-map-marker-alt"></i>
                             <h4>Location</h4>
                             <p>Norman, Oklahoma</p>
                         </div>
                     </div>
+
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Send Message</button>
+                    </form>
                 </div>
-
-                <form class="contact-form" id="contact-form">
-                    <div class="form-group">
-                        <input type="text" id="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
             </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Cuong Huynh. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="https://linkedin.com/in/cuong-huynh" target="_blank">LinkedIn</a>
-                <a href="https://github.com/Rickie2k6" target="_blank">GitHub</a>
-                <a href="mailto:cuonghn.saigon@gmail.com">Email</a>
-            </div>
-        </div>
-    </footer>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>
