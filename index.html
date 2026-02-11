@@ -264,38 +264,49 @@
                     <h2 class="section-title">Papers</h2>
                     <div class="accent-line"></div>
                 </div>
-                
+
                 <div class="papers-container">
                     <div class="paper-card">
-                        <h3 class="paper-title">OUNLP at TSAR 2025 Shared Task Multi-Round Text Simplifier via Code Generation</h3>
-                        <p class="paper-meta">Fourth Workshop on Text Simplification, Accessibility and Readability (TSAR 2025)</p>
-                        <p class="paper-description">
-                            This paper describes the system submission
-                            of our team OUNLP to the TSAR-2025
-                            shared task (Alva-Manchego et al., 2025)
-                            on readability-controlled text simplification.
-                            Based on the analysis of prompt-based text simplification methods, we discovered an interesting finding that text simplification performance
-                            is highly related to the gap between the source
-                            CEFR (Arase et al., 2022) level and the target
-                            CEFR level. Inspired by this finding, we propose two multi-round simplification methods
-                            and generate them via GPT-4o: rule-based simplification (MRS-Rule) and jointly rule-based
-                            LLM simplification (MRS-Joint). Our submitted systems ranked 7 out of 20 teams. Later
-                            improvements with MRS-Joint show that taking the LLM simplified candidates as the starting point could further boost the multi-round
-                            simplification performance.
+                        <h3 class="paper-title">
+                            OUNLP at TSAR 2025: Multi-Round Text Simplification via Code Generation
+                        </h3>
+
+                        <p class="paper-meta">
+                            Fourth Workshop on Text Simplification, Accessibility and Readability (TSAR 2025)
                         </p>
+
+                        <p class="paper-description">
+                            We present the OUNLP system submitted to the TSAR-2025 shared task on
+                            readability-controlled text simplification. Our analysis reveals that
+                            simplification performance is strongly influenced by the gap between
+                            source and target CEFR levels, motivating a multi-round simplification strategy.
+                        </p>
+
                         <ul class="paper-points">
-                            <li>Proposed two multi-round readability-controlled text simplification methods (MRS-Rule and MRS-Joint) inspired by CEFR level gap analysis and implemented using GPT-4o.</li>
-                            <li>Demonstrated that simplification performance strongly correlates with the CEFR gap between source and target texts, guiding system design and evaluation.</li>
-                            <li>Achieved 7th place out of 20 teams in the TSAR-2025 Shared Task, with later improvements showing further gains by initializing multi-round simplification from LLM-generated candidates.</li>
+                            <li>
+                                Designed two multi-round simplification approaches:
+                                <strong>MRS-Rule</strong> and <strong>MRS-Joint</strong>, generated using GPT-4o.
+                            </li>
+                            <li>
+                                Showed that larger CEFR level gaps benefit from iterative, multi-round rewriting.
+                            </li>
+                            <li>
+                                Ranked <strong>7th out of 20 teams</strong> in the TSAR-2025 Shared Task, with
+                                follow-up improvements demonstrating further gains from LLM-initialized candidates.
+                            </li>
                         </ul>
+
                         <div class="tech-stack">
-                            <span class="tech">Latex</span>
+                            <span class="tech">LaTeX</span>
+                            <span class="tech">NLP</span>
+                            <span class="tech">LLMs</span>
+                            <span class="tech">Text Simplification</span>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
+
         <!-- Skills Section -->
         <section id="skills" class="page-section">
             <div class="section-container">
