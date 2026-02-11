@@ -67,14 +67,15 @@ body {
     padding: 20px 0;
 }
 
-.profile-image {
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    object-fit: cover;
+.logo-image {
+    width: 120px;              /* same size as orange box */
+    height: 120px;
+    border-radius: 20px;       /* keeps rounded square shape */
+    object-fit: cover;         /* prevents distortion */
     display: block;
-    margin: 0 auto 12px auto;
+    margin: 0 auto 15px auto;
 }
+
 
 
 .logo {
