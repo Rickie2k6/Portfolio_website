@@ -63,9 +63,19 @@ body {
 }
 
 .logo-section {
-    margin-bottom: 3rem;
     text-align: center;
+    padding: 20px 0;
 }
+
+.profile-image {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 12px auto;
+}
+
 
 .logo {
     width: 80px;
