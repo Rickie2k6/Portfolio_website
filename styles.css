@@ -62,14 +62,18 @@ body {
     height: 100%;
 }
 
-.logo-section {
+/* .logo-section {
     text-align: center;
     padding: 20px 0;
+} */
+.logo-section img {
+    width: 90px !important;
+    height: 90px !important;
 }
 
 .logo-image {
-    width: 90px;          /* smaller than old logo */
-    height: 90px;
+    width: 75px;          /* smaller than old logo */
+    height: 75px;
     border-radius: 20px;  /* keeps rounded square look */
     object-fit: cover;
     display: block;
