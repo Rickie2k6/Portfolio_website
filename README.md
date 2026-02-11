@@ -154,7 +154,7 @@ Change these variables to customize the entire color scheme.
 For inquiries or feedback:
 - **Email**: cuonghn.saigon@gmail.com
 - **Phone**: +1 (405) 417-4729
-- **LinkedIn**: [linkedin.com/in/cuong-huynh](https://www.linkedin.com/in/cuong-huynh-43823434b/)
+- **LinkedIn**: [linkedin.com/in/cuong-huynh-43823434b](https://www.linkedin.com/in/cuong-huynh-43823434b/)
 - **GitHub**: github.com/Rickie2k6
 
 ## License
