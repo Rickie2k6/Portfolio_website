@@ -34,6 +34,10 @@
                     <i class="fas fa-code"></i>
                     <span>Projects</span>
                 </a>
+                <a href="#papers" class="nav-link" data-section="papers">
+                    <i class="fas fa-file-alt"></i>
+                    <span>Papers</span>
+                </a>
                 <a href="#skills" class="nav-link" data-section="skills">
                     <i class="fas fa-star"></i>
                     <span>Skills</span>
@@ -253,7 +257,45 @@
                 </div>
             </div>
         </section>
+        <!-- Papers Section -->
+        <section id="papers" class="page-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Papers</h2>
+                    <div class="accent-line"></div>
+                </div>
+                
+                <div class="papers-container">
+                    <div class="paper-card">
+                        <h3 class="paper-title">OUNLP at TSAR 2025 Shared Task Multi-Round Text Simplifier via Code Generation</h3>
+                        <p class="paper-meta">Fourth Workshop on Text Simplification, Accessibility and Readability (TSAR 2025)</p>
+                        <p class="paper-description">
+                            This paper describes the system submission
+                            of our team OUNLP to the TSAR-2025
+                            shared task (Alva-Manchego et al., 2025)
+                            on readability-controlled text simplification.
+                            Based on the analysis of prompt-based text simplification methods, we discovered an interesting finding that text simplification performance
+                            is highly related to the gap between the source
+                            CEFR (Arase et al., 2022) level and the target
+                            CEFR level. Inspired by this finding, we propose two multi-round simplification methods
+                            and generate them via GPT-4o: rule-based simplification (MRS-Rule) and jointly rule-based
+                            LLM simplification (MRS-Joint). Our submitted systems ranked 7 out of 20 teams. Later
+                            improvements with MRS-Joint show that taking the LLM simplified candidates as the starting point could further boost the multi-round
+                            simplification performance.
+                        </p>
+                        <ul class="paper-points">
+                            <li>Proposed two multi-round readability-controlled text simplification methods (MRS-Rule and MRS-Joint) inspired by CEFR level gap analysis and implemented using GPT-4o.</li>
+                            <li>Demonstrated that simplification performance strongly correlates with the CEFR gap between source and target texts, guiding system design and evaluation.</li>
+                            <li>Achieved 7th place out of 20 teams in the TSAR-2025 Shared Task, with later improvements showing further gains by initializing multi-round simplification from LLM-generated candidates.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech">Latex</span>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </section>
         <!-- Skills Section -->
         <section id="skills" class="page-section">
             <div class="section-container">
@@ -315,7 +357,7 @@
         <section id="contact" class="page-section">
             <div class="section-container">
                 <div class="section-header">
-                    <h2 class="section-title">Get In Touch</h2>
+                    <h2 class="section-title">Contact Information</h2>
                     <div class="accent-line"></div>
                 </div>
                 
